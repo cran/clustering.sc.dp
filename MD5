@@ -1,0 +1,10 @@
+71429aa209c5ad88d2190676cfaa6de3 *DESCRIPTION
+162e95861249b455cb47a0474d042236 *NAMESPACE
+5407d0fe4bd9f5b72baf6b9a3230d464 *R/clustering.sc.dp.R
+190d99a8a4544d7389931acb5dbdea9e *man/backtracking.sc.dp.Rd
+b9e42c147fa115f81ddfe59e32cd0389 *man/clustering.sc.dp.Rd
+7df3001b6b10662e034af83123679451 *man/findwithinss.sc.dp.Rd
+c7f2594fa0246b9eeacbaac17fc2e93d *man/print.clustering.sc.dp.Rd
+af3c07bed57a03f0a459b91795605de1 *src/clustering.sc.dp.cpp
+3a6cefae9c252a93efb35a43eca5b164 *src/clustering.sc.dp.h
+5dbb57cc4713647b923106178e3cc17a *src/clustering.sc.dp_main.cpp

@@ -1,0 +1,6 @@
+useDynLib(clustering.sc.dp)
+export(print.clustering.sc.dp)
+export(clustering.sc.dp)
+export(findwithinss.sc.dp)
+export(backtracking.sc.dp)
+S3method(print, clustering.sc.dp)
