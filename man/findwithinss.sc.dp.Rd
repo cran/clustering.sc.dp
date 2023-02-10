@@ -15,17 +15,17 @@ findwithinss.sc.dp(x, k)
   \item{k}{	the maximal number of clusters, the output will be generated for cluster numbers between 1 and \code{k} } 
 }
 \details{
-	Method \code{clustering.sc.dp} is split into two methods (\code{findwithinss.sc.dp} and \code{backtracking.sc.dp}) in order to support the case when the number of clusters is not known in advance. Method \code{findwithinss.sc.dp} returns the minimal sum of squares of within-cluster distances (\var{withinss}) for each number of clusters less than or equal to \code{k} and the backtrack data which can be used to quickly determine the optimal clustering for a specific cluster number. The returned \var{withinss} are guaranteed to be optimal among the solutions where only subsequent items form a cluster. 
+	Method \code{clustering.sc.dp()} is split into two methods (\code{findwithinss.sc.dp()} and \code{backtracking.sc.dp()}) in order to support the case when the number of clusters is not known in advance. Method \code{findwithinss.sc.dp()} returns the minimal sum of squares of within-cluster distances (\var{withinss}) for each number of clusters less than or equal to \code{k} and the backtrack data which can be used to quickly determine the optimal clustering for a specific cluster number. The returned \var{withinss} are guaranteed to be optimal among the solutions where only subsequent items form a cluster. 
 
-	The outputs of the method can be used to select the proper number of clusters. The user may analyse the \var{withinss} in order to select the proper number of clusters. Another option is to run \code{findwithinss.sc.dp} once, repeat the \code{backtracking.sc.dp} step for a range of potential cluster numbers and then the user may evaluate the optimal solutions created for different number of clusters. This requires much less time than repeating the whole clustering algorithm. 
+	The outputs of the method can be used to select the proper number of clusters. The user may analyse the \var{withinss} in order to select the proper number of clusters. Another option is to run \code{findwithinss.sc.dp()} once, repeat the \code{backtracking.sc.dp()} step for a range of potential cluster numbers and then the user may evaluate the optimal solutions created for different number of clusters. This requires much less time than repeating the whole clustering algorithm. 
 	}
 \value{
 	A list with components:
 	\item{twithinss}{ a vector of total within-cluster sums of the optimal clusterings for each number of clusters less than or equal to \code{k}.}
-	\item{backtrack}{ backtrack data used by \code{backtracking.sc.dp}.}
+	\item{backtrack}{ backtrack data used by \code{backtracking.sc.dp()}.}
 }
 \author{
-	Tibor Szkaliczki \email{szkaliczki.tibor@sztaki.mta.hu}
+	Tibor Szkaliczki \email{szkaliczki.tibor@sztaki.hu}
 }
 
 \seealso{

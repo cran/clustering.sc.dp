@@ -42,7 +42,7 @@ extern "C" {
 		/* Call C++ version of dp clustering algorithm */
 		clustering_sc_dp(input, level, d, B);
 
-		data result;  /*object of class data, used to convey the final result*/
+		data_result result;  /*object of class data, used to convey the final result*/
 
 		/*Call C++ version of backtracking algorithm*/
 		result = backtracking( input, level, B);
@@ -110,7 +110,7 @@ extern "C" {
 			}
 		}
 		
-		data result;  /*object of class data, used to convey the final result*/
+		data_result result;  /*object of class data, used to convey the final result*/
 
 		/*Call C++ version of backtracking algorithm*/
 		result = backtracking( input, level, B);

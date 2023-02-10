@@ -10,19 +10,19 @@ Print the result returned by calling clustering.sc.dp
 \method{print}{clustering.sc.dp}(x, ...)
 }
 \arguments{
-  \item{x}{ object returned by calling clustering.sc.dp}
+  \item{x}{ object returned by calling clustering.sc.dp()}
   \item{\dots}{	ignored arguments }
 }
 
 \value{
-	An object of class \code{clustering.sc.dp} which has a print method and is a list with components:
+	An object of class '\code{clustering.sc.dp}' which has a print method and is a list with components:
 	\item{cluster}{ A vector of integers (\code{1:k}) indicating the cluster to which each point is allocated.}
 	\item{centers}{ A matrix whose rows represent cluster centres.}
 	\item{withinss}{ The within-cluster sum of squares for each cluster.}
 	\item{size}{ The number of points in each cluster.}
 }
 \author{
-	Tibor Szkaliczki \email{szkaliczki.tibor@sztaki.mta.hu}
+	Tibor Szkaliczki \email{szkaliczki.tibor@sztaki.hu}
 }
 \examples{
 # Example: clustering data generated from a random walk

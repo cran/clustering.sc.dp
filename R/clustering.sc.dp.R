@@ -3,7 +3,8 @@
 ##      
 ##   Tibor Szkaliczki
 ##   eLearning Department
-##   Institute for Automation and Control
+##   Institute for Computer Science and Control
+##	 Hungarian Academy of Sciences
 ##   szkaliczki.tibor@sztaki.mta.hu
 ##
 ##   Created: March 14, 2015

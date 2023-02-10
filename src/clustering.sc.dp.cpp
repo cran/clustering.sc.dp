@@ -5,7 +5,7 @@ Based on Ckmeans_1d_dp.cpp -- The original algorithm works only on one dimension
 
   Tibor Szkaliczki
   eLearning Department
-  Institute for Automation and Control
+  Institute for Computer Science and Control
   szkaliczki.tibor@sztaki.mta.hu
 
 Created: September 2, 2013
@@ -129,9 +129,9 @@ void clustering_sc_dp(vector<vector<double> > &x, int K, vector<double> &dist, v
    }
 }
 
-data backtracking(vector<vector<double> > &x, int K, vector<vector<int> > &B) {
+data_result backtracking(vector<vector<double> > &x, int K, vector<vector<int> > &B) {
 
-	data result;
+	data_result result;
 	int N = x.size()-1;  //N: is the size of input vector
 	int feature_size = x[1].size();
 
